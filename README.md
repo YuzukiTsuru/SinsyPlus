@@ -11,8 +11,12 @@ Copyright (C)2017-2018 GloomyGhost
 All rights reserved
 
 Usage:
-        SinsyPlus [infile]
-        Example : sinsyplus voice.xml
+        SinsyPlus [infile] [Language]
+                Language:
+                        Japanese:ja
+                        Chinese :ch
+                        English :ja
+        Example : sinsyplus voice.xml ja
 
 ```
 
