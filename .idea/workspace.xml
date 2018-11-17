@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06527053-e1bd-4dcc-9694-ae7350034fc9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/SinsyPlus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SinsyPlus.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curl/LICENCE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voice.py" beforeDir="false" afterPath="$PROJECT_DIR$/voice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wavsave.py" beforeDir="false" afterPath="$PROJECT_DIR$/wavsave.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curl.py" beforeDir="false" afterPath="$PROJECT_DIR$/curl.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,19 +75,54 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
+    <session id="1198958916">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="LICENCE" value="1" />
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="SinsyPlus" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#1#27#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-362" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/curl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -98,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wavsave.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="247">
               <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -110,11 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/voice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1596">
+            <state relative-caret-position="627">
               <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-              <folding>
-                <marker date="1542437209332" expanded="true" signature="2387:2388" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -146,13 +175,14 @@
         <option value="$PROJECT_DIR$/download.py" />
         <option value="$PROJECT_DIR$/tools/musicxml.py" />
         <option value="$PROJECT_DIR$/wavresample.py" />
-        <option value="$PROJECT_DIR$/curl.py" />
         <option value="$PROJECT_DIR$/wavdraw.py" />
         <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/voice.py" />
         <option value="$PROJECT_DIR$/wavsave.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/curl/LICENCE" />
+        <option value="$PROJECT_DIR$/curl.py" />
       </list>
     </option>
   </component>
@@ -181,8 +211,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="SinsyPlus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SinsyPlus" type="462c0819:PsiDirectoryNode" />
+              <item name="SinsyPlus-win" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SinsyPlus-win" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SinsyPlus-win" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SinsyPlus-win" type="462c0819:PsiDirectoryNode" />
+              <item name="curl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,9 +300,6 @@
       <module name="SinsyPlus" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -412,8 +444,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49942195" visible="true" weight="0.24919094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49942195" visible="true" weight="0.25323623" />
       <window_info id="Structure" order="1" sideWeight="0.50057805" side_tool="true" weight="0.22572815" />
       <window_info id="Favorites" order="2" sideWeight="0.50057805" side_tool="true" weight="0.22572815" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -427,7 +460,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1197411" side_tool="true" weight="0.32601157" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3283237" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32716763" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8802589" weight="0.32601157" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -492,13 +525,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cn.wav" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/hyphenator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="236" column="21" lean-forward="true" selection-end-line="239" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/hyphenator.py" />
     <entry file="file://$PROJECT_DIR$/voiceTag.py" />
     <entry file="file://$PROJECT_DIR$/input/lyrics/somebodyThatIUsedToKnow_lyrics.txt" />
     <entry file="file://$PROJECT_DIR$/hyphenator.py" />
@@ -550,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/curl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -574,19 +594,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/voice.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1596">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding>
-            <marker date="1542437209332" expanded="true" signature="2387:2388" ph="..." />
-          </folding>
-        </state>
+        <state relative-caret-position="-362" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wavsave.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="247">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -594,12 +609,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/voice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="627">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curl/LICENCE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
