@@ -24,3 +24,13 @@ Usage:
 - requests
 - scipy	
 - urllib
+
+## For Windows User:
+You need to download curl before running.<br>
+Here, I use the curl command of msys2.
+
+## For Unix User 
+You need to download curl before running.
+```bash
+sudo apt-get install curl
+```
