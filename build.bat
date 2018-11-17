@@ -1,0 +1,1 @@
+pyinstaller  -F  test.spec

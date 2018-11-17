@@ -1,3 +1,5 @@
+import os
+import sys
 from urllib import request
 from wavdraw import *
 from wavsave import *
@@ -21,6 +23,8 @@ def usage():
     print("\t\t\tChinese :ch")
     print("\t\t\tEnglish :ja")
     print("\tExample : sinsyplus voice.xml ja ")
+    os.system('pause')
+
 
 
 # 程序入口
@@ -28,7 +32,7 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         usage()
     else:
-        XML = sys.argv[1]# 读取XML
+        XML = sys.argv[1] # 读取XML
         if len(sys.argv) < 3:
             lang = lang()  # 读取语言
         else:
