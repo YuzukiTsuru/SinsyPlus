@@ -12,7 +12,7 @@ def downloadfile(link, filename):
 
 
 # 下载文件，显示进度条
-def saveBinDataToFile(url, file_path):
+def download(url, file_path):
     # verify=False 这一句是为了有的网站证书问题，为True会报错
     r = requests.get(url, stream=True, verify=False)
 

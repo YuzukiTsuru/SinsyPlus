@@ -1,4 +1,3 @@
-import sys
 from urllib import request
 from wavdraw import *
 from wavsave import *
@@ -16,8 +15,12 @@ def usage():
     print("All rights reserved")
     print()
     print("Usage:")
-    print("\tSinsyPlus [infile]")
-    print("\tExample : sinsyplus voice.xml")
+    print("\tSinsyPlus [infile] [Language]")
+    print("\t\tLanguage:")
+    print("\t\t\tJapanese:ja")
+    print("\t\t\tChinese :ch")
+    print("\t\t\tEnglish :ja")
+    print("\tExample : sinsyplus voice.xml ja ")
 
 
 # 程序入口
@@ -25,9 +28,13 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         usage()
     else:
-        XML = sys.argv[1] # 读取XML
-        lang = lang()  # 读取语言
+        XML = sys.argv[1]# 读取XML
+        if len(sys.argv) < 3:
+            lang = lang()  # 读取语言
+        else:
+            lang = langnum(sys.argv[2])
         langstr = langstr(lang)  # 获取语言
+        print(langstr)
         print("Upload MusicXML...")
         fileName = text(curl(lang, langstr, XML))  # 获取文件名
         print("Synthesising from servers...")
@@ -35,6 +42,6 @@ if __name__ == '__main__':
         link = "http://sinsy.sp.nitech.ac.jp/temp/"+ fileName + ".wav"
         # Save Wav
         fileNameSave = fileName + ".wav"
-        saveBinDataToFile(link, fileNameSave)
+        download(link, fileNameSave)
         # draw wav
         wavedraw(fileNameSave)
