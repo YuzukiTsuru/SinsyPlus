@@ -30,8 +30,9 @@ Usage:
 - urllib
 
 ## For Windows User:
-You need to download curl before running.<br>
-Here, I use the curl command of msys2.
+Windows Version Download:
+
+https://pan.baidu.com/s/1ivBxM5hYoXzNdgfAANqTIg
 
 ## For Unix User 
 You need to download curl before running.
