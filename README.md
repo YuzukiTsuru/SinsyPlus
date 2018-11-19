@@ -38,5 +38,5 @@ You need to download curl before running.
 ```bash
 sudo apt-get install curl
 ```
-
-## Reference :[https://github.com/mathigatti/midi2voice](https://github.com/mathigatti/midi2voice)
+## Reference:
+https://github.com/mathigatti/midi2voice
