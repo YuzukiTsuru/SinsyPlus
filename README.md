@@ -32,7 +32,7 @@ Usage:
 ## For Windows User:
 Windows Version Download:
 
-https://pan.baidu.com/s/1ivBxM5hYoXzNdgfAANqTIg
+https://pan.baidu.com/s/1Tfy1qoEM0ENq4hkb_ebQHA
 
 ## For Unix User 
 You need to download curl before running.
