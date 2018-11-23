@@ -1,9 +1,9 @@
 # SinsyPlus
 Singing Voice Synthesis System based on Sinsy
 
-My grandfather's clock (Japanese):
+セパレイト (Japanese):
 <audio controls="controls">
-  <source src="https://raw.githubusercontent.com/740291272/Sinsy-NG/demo/demo/e.wav" type="audio/wav" />
+  <source src="https://raw.githubusercontent.com/740291272/SinsyPlus/win/demo/20181123051259_19824.mp3" type="audio/mp3" />
 Please to <a href="http://gloomyghost.com/SinsyPlus/">project</a> page listen the demo!
 </audio>
 
