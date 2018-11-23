@@ -1,6 +1,13 @@
 # SinsyPlus
 Singing Voice Synthesis System based on Sinsy
 
+My grandfather's clock (Japanese):
+<audio controls="controls">
+  <source src="https://raw.githubusercontent.com/740291272/Sinsy-NG/demo/demo/e.wav" type="audio/wav" />
+Please to <a href="http://gloomyghost.com/SinsyPlus/">project</a> page listen the demo!
+</audio>
+
+
 This script relies on the sinsy.jp website from the Nagoya Institute of Technology which implements a HMM-based Singing Voice Synthesis System.
 
 ```bash
