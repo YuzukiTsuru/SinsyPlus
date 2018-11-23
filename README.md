@@ -22,7 +22,7 @@ Usage:
                 Language:
                         Japanese:ja
                         Chinese :ch
-                        English :ja
+                        English :en
         Example : sinsyplus voice.xml ja
 
 ```
