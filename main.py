@@ -21,7 +21,7 @@ def usage():
     print("\t\tLanguage:")
     print("\t\t\tJapanese:ja")
     print("\t\t\tChinese :ch")
-    print("\t\t\tEnglish :ja")
+    print("\t\t\tEnglish :en")
     print("\tExample : sinsyplus voice.xml ja ")
     os.system('pause')
 
