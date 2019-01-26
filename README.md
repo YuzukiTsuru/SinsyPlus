@@ -1,7 +1,7 @@
 # SinsyPlus
 Singing Voice Synthesis System based on Sinsy
 
-セパレイト (Japanese):[XML](https://raw.githubusercontent.com/740291272/SinsyPlus/win/demo/3.xml)(UST by YoshikageFuckwad)
+セパレイト (Japanese):[XML](https://raw.githubusercontent.com/740291272/SinsyPlus/win/demo/3.xml)(UST by MastermindRitsu)
 <audio controls="controls">
   <source src="https://raw.githubusercontent.com/740291272/SinsyPlus/win/demo/3.ogg" type="audio/ogg" />
 Please to <a href="http://gloomyghost.com/SinsyPlus/">project</a> page listen the demo!
