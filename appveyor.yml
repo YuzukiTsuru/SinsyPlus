@@ -20,9 +20,9 @@ test: off
 
 version: 0.0.{build}.Appveyor
 
-#artifacts:
-#- path: dist\*exe
-#  name: GLaDOS-{build}
+artifacts:
+- path: dist\*exe
+- name: SinsyPlus-{build}
 
 
 deploy:
