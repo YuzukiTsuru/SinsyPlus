@@ -13,7 +13,8 @@ init:
   - git config --global core.autocrlf input
 
 install:
-  - pip3 install -r requirements.txt && pip3 install pyinstaller
+  - python -m pip install --upgrade pip
+  - pip install -r requirements.txt && pip install pyinstaller
 
 build_script:
   - pyinstaller  -F  main.spec
