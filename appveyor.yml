@@ -12,7 +12,6 @@ environment:
 init:
   - git config --global core.autocrlf input
   - virtualenv -p C:\\Python36-x64\\python.exe .
-  - .\scripts\activate
 
 install:
   - python -m pip install --upgrade pip
