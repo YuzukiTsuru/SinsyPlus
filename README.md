@@ -1,4 +1,4 @@
-img src='https://github.com/GloomyGhost-MosquitoSeal/SinsyPlus/blob/master/logo.jpg?raw=true' align="right" width=200>
+<img src='https://github.com/GloomyGhost-MosquitoSeal/SinsyPlus/blob/master/logo.jpg?raw=true' align="right" width=200>
 # SinsyPlus
 Singing Voice Synthesis System based on Sinsy
 
