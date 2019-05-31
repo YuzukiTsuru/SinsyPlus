@@ -1,0 +1,30 @@
+image: Visual Studio 2017
+
+platform:
+  - x64
+
+init:
+  - git config --global core.autocrlf input
+
+install:
+  - pip3 install -r requirements.txt && pip3 install pyinstaller
+
+build_script:
+  - pyinstaller  -F  main.spec
+
+test: off
+
+version: 0.0.{build}.Appveyor
+
+artifacts:
+- path: dist\*exe
+  name: SinsyPlus-{build}
+
+
+deploy:
+- provider: GitHub
+  auth_token:
+    secure: s4Qh6C0lm0rZIKztCRjl69ER4IzK4voYH4O8XgMNu88/8pSW3Vb9h6kwq35UDq3V
+    
+    
+    
