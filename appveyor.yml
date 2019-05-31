@@ -2,6 +2,10 @@ image: Visual Studio 2017
 
 platform:
   - x64
+  
+environment:
+  matrix:
+  - SINSYENV: py36
 
 init:
   - git config --global core.autocrlf input
