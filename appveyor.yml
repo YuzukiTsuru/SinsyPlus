@@ -5,7 +5,9 @@ platform:
   
 environment:
   matrix:
-  - SINSYENV: py36
+  - PYTHON: "C:\\Python36-x64"
+      PYTHON_VERSION: "3.6.8"
+      PYTHON_ARCH: "64"
 
 init:
   - git config --global core.autocrlf input
