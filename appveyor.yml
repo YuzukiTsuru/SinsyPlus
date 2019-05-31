@@ -7,7 +7,7 @@ init:
   - git config --global core.autocrlf input
 
 install:
-  - pip3 install -r requirements.txt && pip3 install pyinstaller
+  - sudo install python3.6 && pip3 install -r requirements.txt && pip3 install pyinstaller
 
 build_script:
   - pyinstaller  -F  main.spec
