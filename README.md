@@ -1,5 +1,8 @@
+img src='https://github.com/GloomyGhost-MosquitoSeal/SinsyPlus/blob/master/logo.jpg?raw=true' align="right" width=200>
 # SinsyPlus
 Singing Voice Synthesis System based on Sinsy
+
+[![Build status](https://ci.appveyor.com/api/projects/status/est4cx966u4fevcg?svg=true)](https://ci.appveyor.com/project/GloomyGhost-MosquitoCoil/sinsyplus)
 
 This script relies on the sinsy.jp website from the Nagoya Institute of Technology which implements a HMM-based Singing Voice Synthesis System.
 
