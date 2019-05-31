@@ -1,5 +1,3 @@
-urllib
-functools
 matplotlib
 scipy
 requests
