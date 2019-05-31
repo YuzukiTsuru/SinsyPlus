@@ -11,7 +11,7 @@ environment:
 
 init:
   - git config --global core.autocrlf input
-  - virtualenv -p C:\\Python36-x64 .
+  - virtualenv -p C:\\Python36-x64\\python.exe .
   - source venv/bin/activate
 
 install:
