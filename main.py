@@ -1,7 +1,6 @@
 import os
 import sys
 from urllib import request
-from wavdraw import *
 from wavsave import *
 from wavresample import *
 from utils import *
@@ -47,5 +46,3 @@ if __name__ == '__main__':
         # Save Wav
         fileNameSave = fileName + ".wav"
         download(link, fileNameSave)
-        # draw wav
-        wavedraw(fileNameSave)
