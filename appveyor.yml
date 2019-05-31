@@ -8,7 +8,7 @@ init:
 
 install:
   - pip install -r requirements.txt
-  - pip install pyinstaller
+    pip install pyinstaller
 
 build_script:
   - pyinstaller  -F  main.spec
