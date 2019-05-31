@@ -22,7 +22,7 @@ version: 0.0.{build}.Appveyor
 
 artifacts:
 - path: dist\*exe
-- name: SinsyPlus-{build}
+  name: SinsyPlus-{build}
 
 
 deploy:
