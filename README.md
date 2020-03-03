@@ -5,10 +5,10 @@ Singing Voice Synthesis System based on Sinsy
 
 [![Build status](https://ci.appveyor.com/api/projects/status/est4cx966u4fevcg?svg=true)](https://ci.appveyor.com/project/GloomyGhost-MosquitoCoil/sinsyplus)
 
-セパレイト (Japanese):[XML](https://raw.githubusercontent.com/740291272/SinsyPlus/master/demo/3.xml)(UST by YoshikageFuckwad)
+セパレイト (Japanese):[XML](demo/3.xml)(UST by YoshikageFuckwad)
 <audio controls="controls">
-  <source src="https://raw.githubusercontent.com/740291272/SinsyPlus/master/demo/3.ogg" type="audio/ogg" />
-Please to <a href="http://Github.gloomyghost.com/SinsyPlus/">project</a> page listen the demo!
+  <source src="demo/3.ogg" type="audio/ogg" />
+Please to <a href="http://gloomyghost.com/SinsyPlus/">project</a> page listen the demo!
 </audio>
 
 This script relies on the sinsy.jp website from the Nagoya Institute of Technology which implements a HMM-based Singing Voice Synthesis System.
